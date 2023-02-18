@@ -1,0 +1,83 @@
+* {
+box-sizing: border-box;
+}
+.login {
+	position: relative;
+	  width: 600px;
+    background-color: white;
+    height: 400px;
+    margin-left: 350px;
+    margin-top: 80px;
+     border-radius: 40px;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px gray;}
+}
+
+img {
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 120px;
+	float: right;
+	
+}
+
+h2 {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 150px;
+
+color: blueviolet;
+font-family: cursive;
+}
+.btn {
+	position: absolute;
+	  width: 300px;
+height: 30px;
+border: 1px solid lightgray;
+border-radius: 30px;
+box-shadow: 2px 2px 4px lightgrey;	
+}
+.email {
+	margin-top: 70px;
+	margin-left: 50px;
+}
+.password {
+	margin-top: 100px;
+	margin-left: 50px;
+}
+.checkbox {
+	margin-top: 130px;
+	margin-left: 50px;	
+}
+.submit {
+	   width: 100px;
+height: 30px;
+border: 1px solid lightseagreen;
+border-radius: 30px;
+box-shadow: 2px 2px 4px lightgrey;
+position: absolute;
+margin-top: 40px;
+margin-left: 150px;
+background-color: aqua;
+	color: azure;
+}
+a {
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -25px;
+	}
+	
+.submit:hover {
+    color: blueviolet;
+    background-color: lightpink;
+}
+.message {	
+		position: absolute;
+	margin-top: 50px;
+	margin-left: 80px;
+color: cyan;
+font-family: Verdana;
+}

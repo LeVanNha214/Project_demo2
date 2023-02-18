@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;	
+}
+.logo {
+    width: 100%;
+    height: 150px;
+    border: 3px solid lightslategray;
+    background-color: lightsteelblue;
+}
+h2 {
+	 font-family:  Verdana;
+    margin-left: 600px;
+    color: azure;	
+}
+h3 {
+   margin-left: 550px;
+    font-family:monospace;
+    margin-top: -10px;
+    color: blulogineviolet;
+}
+.menu {
+	box-sizing:border-box;
+    width: 100%;
+    height: 40px;
+    border: 3px solid lightslategray;
+    background-color: darkblue;
+    margin-top: 30px;
+}
+
+.bts {
+    background-color: darkblue;
+    color: azure;
+ font-size: 15px;
+  border: 1px solid darkblue;
+  margin-top: 5px;
+}
+.bts:hover {
+    color: coral;
+}
+.home {
+	margin-left:50px;
+	
+}
+.login {
+	margin-left: 900px;
+}
+
+
+
+
